@@ -5,55 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jadoo</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="shortcut icon" href="https://png.pngtree.com/png-vector/20211110/ourmid/pngtree-letter-j-logo-png-image_4004692.png" type="image/x-icon">
 </head>
 <body>
     <div class="pink-color"></div>
     <div class="main-wiewport">
-        <img src="pictures/Decore.png" class="decore" alt="decore">
         <div class="header">
             <div class="container">
                 <div class="jadoo-img">
                     <img src="pictures/Jadoo.png" alt="jadoo">
                 </div>
-                <ul class="title-ul">
-                    <li><a href="">Desitnations</a></li>
-                    <li><a href="">Hotels</a></li>
-                    <li><a href="">Flights</a></li>
-                    <li><a href="">Bookings</a></li>
-                    <li><a href="">Login</a></li>
-                    <li><a href=""><button>Sign up</button></a></li>
-                    <li>
-                        <select name="" id="">
+                <img class="open-icon" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e" alt="">
+                <div class="dark-div" id="dark-div"></div>
+                <ul class="title-ul" id="title-ul">
+                    <div class="burger-title">
+                        <img src="pictures/Jadoo.png" class="jadoo-burger" alt="jadoo">
+                        <i class="fa-regular close-icon fa-chevrons-right"></i>
+                    </div>
+                    <li><a href="#" class="a1">Desitnations</a></li>
+                    <li><a href="#" class="a2">Hotels</a></li>
+                    <li><a href="#" class="a3">Flights</a></li>
+                    <li><a href="#" class="a4">Bookings</a></li>
+                    <li><a href="#" class="a5">Login</a></li>
+                    <li><a href="#" class="a6"><button>Sign up</button></a></li>
+                    <li><select>
                             <option value="1">En</option>
                             <option value="2">Ru</option>
                             <option value="3">Uz</option>
-                        </select>
-                    </li>
+                    </select></li>
                 </ul>
             </div>
         </div>
         <div class="main-section">
             <div class="container">
-                <h3>Best destinations around the world</h3>
-                <h1>Travel,enjoy <br> and live a new and full life</h1>
-                <p>Built Wicket longer admire do barton vanity itself do in it. 
-                Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
+                <h3 class="wow fadeIn">Best destinations around the world</h3>
+                <h1 class="wow flipInX">Travel,enjoy  and live a new and full life</h1>
+                <p class="wow fadeIn">Built Wicket longer admire do barton vanity itself do in it. 
+                    Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
                 <div class="find-btn">
-                    <button class="find">Find out more</button>
-                    <button class="find2">
+                    <button class="find wow fadeIn">Find out more</button>
+                    <button class="find2 wow fadeIn">
                         <div class="circle"><img src="pictures/Polygon 1.png" alt=""></div>
                         <span>Play Demo</span>
                     </button>
                 </div>
-                <img class="travel-img" src="pictures/Image.png" alt="Traveller">
+                <img class="travel-img wow fadeIn" src="pictures/Image.png" alt="Traveller">
             </div>
         </div>
+        <img src="pictures/Decore.png" class="decore" alt="decore">
     </div>
 
 
 
-    <script src="javascrit.js"></script>
+    <script src="js/javascrit.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
