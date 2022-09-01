@@ -79,6 +79,7 @@ a {
 .title-ul {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .open-icon,
 .burger-title {
@@ -138,7 +139,7 @@ a {
 }
 .main-section h1 {
     width: 50%;
-    font-size: 84px;
+    font-size: 24px !important;
     font-family: var(--volkhov);
     font-weight: 700;
     letter-spacing: -4%;
@@ -146,7 +147,6 @@ a {
     background: url('../pictures/Vector.png');
     background-repeat: no-repeat;
     background-position: 250px 70px;
-
 }
 .main-section p {
     width: 35%;
